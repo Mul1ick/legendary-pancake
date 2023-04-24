@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: rgb(233, 221, 1);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:black;
+    font-size:17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: rgb(255, 255, 255);
+    transition: .5s;
+}
+#MainBody{
+    margin-top: 200px;
+    margin-left: 200px;
+    padding-top: 50px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin-left: 200px;
+    padding-top: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    float:right;
+    padding-top: 0px;
+    margin-top: 0px;
+    position:relative;
+    top: -245px;
+}
+button{
+    margin-left: 200px;
+    margin-top: 35px;
+    font-size:large;
+    padding:10px;
+    background-color: gray;
+    color:white;
+    border-radius: 5px;
+}
+#button{
+    color: black;
+}
+footer{
+    background: rgb(233, 221, 1) ;
+    margin:0;
+    padding:0;
+}
+.foot{
+    padding-bottom:30px;
+    
+}
+table{
+    margin-left:200px;
+    padding-top: 25px;
+}
+th{
+    text-align: left;
+}
+td{
+    padding-top:20px;
+    padding-right:10px;
+}
+#price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left:200px;
+}
+.box{
+    display: flex;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    margin-bottom: 50px;
+}
+h4{
+    font-size: 25px;
+}
+#box2{
+    border-radius:3px;
+    padding:20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 300px;
+}
+li{
+    list-style-type: square;
+}
+#box3{
+    border-radius:3px;
+    padding:20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 300px;
+    margin-left: 30px;
+    
+}
+#box4{
+    border-radius:3px;
+    padding:20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 300px;
+    margin-left: 30px;
+    
+}
